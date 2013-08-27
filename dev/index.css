@@ -1,0 +1,37 @@
+/* CSS for index.html (www.iobender.com) */
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+div {
+}
+
+#sidebar {
+	position: fixed;
+	height: 100%;
+	width: 200px;
+	background-color: #475f77;
+	text-align: center;
+}
+
+#headshot {
+	border-radius: 20px;
+	width: 80%;
+	margin: 10px;
+}
+
+#header {
+	background-color: #d74b4b;
+	height: 10%;
+	margin-left: 200px;
+	text-align: center;
+}
+
+#content {
+	background-color: yellow;
+	margin-left: 200px;
+	height: 90%;
+}
