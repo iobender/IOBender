@@ -1,7 +1,7 @@
 /* CSS for index.html (www.iobender.com) */
 
 * {
-	/* border: solid 1px black; */
+	/* border: solid 0px black; */
 }	
 
 html, body {
@@ -30,14 +30,14 @@ div {
 }
 
 #header {
-	background-color: #ff4940;
+	background-color: #ffb573;
 	height: 15%;
 	margin-left: 250px;
 	text-align: center;
 }
 
 #content {
-	background-color: #ffb573;
+	background-color: pink;
 	margin-left: 250px;
 	height: 85%;
 }
