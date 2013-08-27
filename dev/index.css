@@ -1,37 +1,43 @@
 /* CSS for index.html (www.iobender.com) */
 
+* {
+	/* border: solid 1px black; */
+}	
+
 html, body {
 	margin: 0px;
 	padding: 0px;
 	height: 100%;
+	background-color: #028e9b;
 }
 
 div {
+	border-radius: 5px;
 }
 
 #sidebar {
 	position: fixed;
 	height: 100%;
-	width: 200px;
-	background-color: #475f77;
+	width: 250px;
+	background-color: #028e9b;
 	text-align: center;
 }
 
 #headshot {
 	border-radius: 20px;
-	width: 80%;
+	width: 70%;
 	margin: 10px;
 }
 
 #header {
-	background-color: #d74b4b;
-	height: 10%;
-	margin-left: 200px;
+	background-color: #ff4940;
+	height: 15%;
+	margin-left: 250px;
 	text-align: center;
 }
 
 #content {
-	background-color: yellow;
-	margin-left: 200px;
-	height: 90%;
+	background-color: #ffb573;
+	margin-left: 250px;
+	height: 85%;
 }
