@@ -49,23 +49,25 @@ div {
 }
 
 #content-text-wrapper {
-	border: 1px green solid;
-	width: 49%;
+	width: 50%;
 	float: left;
 }
 
 #content-text {
 	border: 1px red dashed;
 	margin: 15px;
+	padding: 0 10px;
+	background-color: white;
 }
 
 #content-list-wrapper {
-	border: 1px blue solid;
-	width: 49%;
+	width: 50%;
 	float: right;
 }
 
 #content-list {
 	border: 1px red dashed;
 	margin: 15px;
+	padding: 0 10px;
+	background-color: white;
 }
