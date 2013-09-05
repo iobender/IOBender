@@ -31,7 +31,8 @@ div {
 
 #header {
 	background-color: #ffb573;
-	height: 15%;
+	height: 100px;
+	line-height: 100px;
 	margin-left: 250px;
 	text-align: center;
 }
@@ -39,5 +40,5 @@ div {
 #content {
 	background-color: pink;
 	margin-left: 250px;
-	height: 85%;
+	height: 100%;
 }
