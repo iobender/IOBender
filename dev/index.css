@@ -37,6 +37,10 @@ div {
 	text-align: center;
 }
 
+#header * {
+	vertical-align: middle;
+}
+
 #content {
 	background-color: pink;
 	margin-left: 250px;
