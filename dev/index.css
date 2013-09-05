@@ -50,9 +50,8 @@ div {
 
 #content-text-wrapper {
 	border: 1px green solid;
-	margin-right: 50%;
+	width: 49%;
 	float: left;
-	display: inline;
 }
 
 #content-text {
@@ -62,9 +61,8 @@ div {
 
 #content-list-wrapper {
 	border: 1px blue solid;
-	margin-left: 50%;
+	width: 49%;
 	float: right;
-	display: inline;
 }
 
 #content-list {
