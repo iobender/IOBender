@@ -12,7 +12,6 @@ html, body {
 }
 
 div {
-	border-radius: 5px;
 }
 
 #sidebar {
@@ -26,15 +25,16 @@ div {
 #headshot {
 	border-radius: 20px;
 	width: 70%;
-	margin: 10px;
+	margin: 15px;
 }
 
 #header {
-	background-color: #ffb573;
+	background-color: #00024a;
 	height: 100px;
 	line-height: 100px;
 	margin-left: 250px;
 	text-align: center;
+	font-family: Courier;
 }
 
 #header * {
@@ -42,7 +42,7 @@ div {
 }
 
 #content {
-	background-color: pink;
+	background-color: #d6d6d6;
 	margin-left: 250px;
 	height: 100%;
 }
