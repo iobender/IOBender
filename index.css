@@ -1,0 +1,80 @@
+/* CSS for index.html (www.iobender.com) */
+
+* {
+	/* border: solid 0px black; */
+}	
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: #028e9b;
+}
+
+div {
+}
+
+#sidebar {
+	position: fixed;
+	height: 100%;
+	width: 250px;
+	background-color: #028e9b;
+	text-align: center;
+}
+
+#headshot {
+	border-radius: 20px;
+	width: 70%;
+	margin: 15px;
+}
+
+#header {
+	background-color: #00024a;
+	height: 100px;
+	line-height: 100px;
+	margin-left: 250px;
+	text-align: center;
+	font-family: Courier;
+}
+
+#header * {
+	vertical-align: middle;
+}
+
+#content {
+	background-color: #d6d6d6;
+	margin-left: 250px;
+	height: 100%;
+	display: inline-block;
+}
+
+#content-text-wrapper {
+	width: 75%;
+	float: left;
+}
+
+#content-list-wrapper {
+	width: 25%;
+	float: right;
+}
+
+#content-text, #content-list {
+	margin: 15px;
+	padding: 1px 15px;
+	background-color: white;
+	border-radius: 15px;
+	font-size: 1.1em;
+	display: inline-block;
+}
+
+#content a:link, #content a:visited {
+	color: blue;
+}
+
+#content a:hover {
+	text-decoration: none;
+}
+
+#content-text p {
+	text-indent: 2em;
+}
