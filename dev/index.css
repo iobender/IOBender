@@ -53,25 +53,28 @@ div {
 	float: left;
 }
 
-#content-text {
-	margin: 15px;
-	padding: 1px 15px;
-	background-color: white;
-	border-radius: 15px;
-	font-size: 1.1em;
-	display: inline-block;
-}
-
 #content-list-wrapper {
 	width: 25%;
 	float: right;
 }
 
-#content-list {
+#content-text, #content-list {
 	margin: 15px;
 	padding: 1px 15px;
 	background-color: white;
 	border-radius: 15px;
 	font-size: 1.1em;
 	display: inline-block;
+}
+
+#content a:link, #content a:visited {
+	color: blue;
+}
+
+#content a:hover {
+	text-decoration: none;
+}
+
+#content-text p {
+	text-indent: 2em;
 }
