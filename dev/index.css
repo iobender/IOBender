@@ -54,10 +54,10 @@ div {
 }
 
 #content-text {
-	border: 1px red dashed;
 	margin: 15px;
 	padding: 0 10px;
 	background-color: white;
+	border-radius: 15px;
 }
 
 #content-list-wrapper {
@@ -66,8 +66,8 @@ div {
 }
 
 #content-list {
-	border: 1px red dashed;
 	margin: 15px;
 	padding: 0 10px;
 	background-color: white;
+	border-radius: 15px;
 }
