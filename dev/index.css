@@ -47,3 +47,31 @@ div {
 	height: 100%;
 	display: inline-block;
 }
+
+#content-text-wrapper {
+	width: 75%;
+	float: left;
+}
+
+#content-text {
+	margin: 15px;
+	padding: 1px 15px;
+	background-color: white;
+	border-radius: 15px;
+	font-size: 1.1em;
+	display: inline-block;
+}
+
+#content-list-wrapper {
+	width: 25%;
+	float: right;
+}
+
+#content-list {
+	margin: 15px;
+	padding: 1px 15px;
+	background-color: white;
+	border-radius: 15px;
+	font-size: 1.1em;
+	display: inline-block;
+}
